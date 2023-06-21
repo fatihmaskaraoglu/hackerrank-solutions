@@ -1,4 +1,4 @@
-package com.myapp.hackerrankssolutions.Pattern;
+package com.myapp.hackerrankssolutions.pattern;
 import java.util.Scanner;
 import java.util.regex.*;
 public class PatternSyntaxChecker {
