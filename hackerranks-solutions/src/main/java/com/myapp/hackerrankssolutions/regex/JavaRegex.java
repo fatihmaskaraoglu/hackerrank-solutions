@@ -13,7 +13,7 @@ public class JavaRegex {
     }
 }
 class MyRegex {
-    String A = "([01]?[0-9]{1,2}|"; //000-199
+    String A = "([[0-01]?9]{1,2}|"; //000-199
     String B = "2[0-4][0-9]|"; //200-249
     String C = "25[0-5])"; // 250-255
     String num = A+B+C;  // has allow range 000 - 255
